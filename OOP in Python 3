@@ -1,0 +1,4 @@
+# OOP-in-Python-3
+OOP in Python 3 | All four pillars of Object Oriented Programming in Python 3 for Beginners from Scratch. 1.- Encapsulation. 2.- Abstraction. 3.- Inheritance. 4.- Polymorphism.
+
+* Encapsulación: es IMPEDIRel acceso a determinados Métodos/Atributos. En Python NO existen los modificadores, por lo que el acceso a una variable viene determinado por su Nombre. 
