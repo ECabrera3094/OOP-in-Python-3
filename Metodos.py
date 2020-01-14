@@ -59,7 +59,7 @@ class Employee:
     def getDia(self):
         return self.__dia
     
-
+print("******************")
 
 emy = Employee()
 emy.instanceMethod()
