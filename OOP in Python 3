@@ -1,4 +1,25 @@
 # OOP-in-Python-3
 OOP in Python 3 | All four pillars of Object Oriented Programming in Python 3 for Beginners from Scratch. 1.- Encapsulation. 2.- Abstraction. 3.- Inheritance. 4.- Polymorphism.
 
-* Encapsulación: es IMPEDIRel acceso a determinados Métodos/Atributos. En Python NO existen los modificadores, por lo que el acceso a una variable viene determinado por su Nombre. 
+* Clase: es un Data Type.
+
+* Objeto: es una Instancia de la Clase ( instance = MyClass() ). TODAS las Clases y Objetos contienen Atributos. Los Atributos Públicos pueden ser modificados desde la Instancia, los Privados SÓLO desde la Clase. 
+
+* Métodos de Instancia: se definen adentro de la Clase y se utilizan para realizar Operaciones/Acciones con los Atributos de nuestros Objetos. ÚNICAMENTE puede ser llamado si se tiene una Instancia de la Clase. Es capaz de crear, obtener y modificar Atributos Públicos y Privados, y llamara otros Métodos de Instancia. 
+
+* Métodos de Clase: antepone el Decorador @classmethod. Este método SI tiene acceso a Atributos de Instancia y a los propios. Puede ser llamado instanciando a la Clase o directamente.
+
+* Métodos Estáticos: antepone el Decorador @staticmethod. Este método NO tiene acceso a Atributos de Instancia. Puede ser llamado instanciando a la Clase o directamente.
+
+* Self: cuando es recibido por parámetro en cada uno de los Métodos, quiere decir que a cada uno de los Métodos se le pasa el Objeto en sí. Cuando definimos Clases es necesario pasar por Self, ya que de otra forma no podríamos acceder a los Atributos ni a los Métodos de la Clase. 
+
+* Encapsulación: es IMPEDIRLE el acceso a determinados Métodos/Atributos. En Python NO existen los modificadores, por lo que el acceso a una variable viene determinado por su Nombre. Si SOLO empieza con 2 Guines Bajos (__) se trata de un Atributo/Método PRIVADO, de lo contrario es PÚBLICO.
+
+* Abstracción: Se refiere al proceso de proveer SOLO información escencial al mundo exterior. La Abstracción es el proceso de proveer encapsulación. El nivel de Abstracción puede ser BAJO/ALTO (se manipulan datos y Métodos o sólo Métodos).
+
+* Herencia: es la capacidad de una Clase de obtener/heredar las propiedades de alguna otra clase.
+  a) Herencia Simple: se apoya en el uso de una Clase Base para compartirsus Atributos y Métodos con otras Clases derivadas.
+  b) Herencia Múltiple: es la capacidad de heredar de múltiples Super Clases. Pero si varias Super Clases poseen los mismos Atributos y/o
+  Métodos, la Sub Clase sólo heredará de una, dando prioridad a la clase de la IZQUIERDA en el momento de la declaración.
+  
+* Polimorfismo: nos posibilita que al invocar un determinado Método de un Objeto, podrán obtenerse distintos resultados según LA CLASE DEL OBJETO.
