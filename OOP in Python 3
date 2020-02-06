@@ -23,3 +23,7 @@ OOP in Python 3 | All four pillars of Object Oriented Programming in Python 3 fo
   Métodos, la Sub Clase sólo heredará de una, dando prioridad a la clase de la IZQUIERDA en el momento de la declaración.
   
 * Polimorfismo: nos posibilita que al invocar un determinado Método de un Objeto, podrán obtenerse distintos resultados según LA CLASE DEL OBJETO.
+
+---
+
+* Decoradores: es un Patrón de Diseño. Alteran de forma Dinámica la funcionalidad de una función, método o clase sin necesidad de añadir subrutinas. Hacen posible que una función/clase (A) tome como argumento otra función (B) a fin de devolver una tercera función (C). 
